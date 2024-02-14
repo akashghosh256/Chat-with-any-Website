@@ -86,7 +86,9 @@ else:
     # session state
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = [
-            AIMessage(content="Hello, I am a bot. How can I help you?"),
+            AIMessage(content="Hello, I'm a bot! How can I help you today? I may 
+            respond a bit slower as I'm using a free OpenAI service, but I'll do my 
+            best to answer your questions or complete your requests!  :) "),
         ]
     if "vector_store" not in st.session_state:
         st.session_state.vector_store = get_vectorstore_from_url(website_url)    
