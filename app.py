@@ -80,7 +80,7 @@ with st.sidebar:
 
 
 if website_url is None or website_url == "":
-    st.info("Please enter a website URL")
+    st.info("Ready to chat about a website? Pop its URL in the sidebar first!")
 
 else:
     # session state
