@@ -1,1 +1,5 @@
-pip install streamlit  langchain python-dotenv  openai 
+create virtual enviroment =  python -m venv .venv(Any file name) 
+activate = .venv\Scripts\activate
+deactivate venv  cmd= deactivate
+RUN app.py  = streamlit run app.py
+python --version
